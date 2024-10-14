@@ -50,12 +50,12 @@ export const Warning: Story = {
   },
 };
 
-export const Error: Story = {
+export const ErrorStory: Story = {
   args: {
     notification: {
       id: '1',
       type: 'error',
-      title: 'Hello Error',
+      title: 'Hello ErrorStory',
       message: 'This is error notification',
     },
     onDismiss: (id) => alert(`Dismissing Notification with id: ${id}`),
